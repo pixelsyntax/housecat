@@ -50,7 +50,8 @@ h_err* h_build_post(
 		h_conf* conf);
 
 h_err* h_build_theme(const char* dirpath, h_build_outfiles outfiles);
-h_err* h_build_imgs(const char* rootdir);
 h_err* h_build_plugins(const char* rootdir, h_build_outfiles outfiles, const h_conf* conf);
+h_err* h_build_imgs(const char* rootdir);
+h_err* h_build_assets(const char* rootdir);
 
 #endif

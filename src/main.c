@@ -343,6 +343,21 @@ h_err* build(char* path)
 		h_conf_free(conf);
 		return err;
 	}
+	
+	//Prepare assets
+	err = h_build_assets(path);
+	if (err)
+	{
+		free(index_str);
+		free(post_str);
+		free(page_str);
+		free(menu_str);
+		free(menu_section_str);
+		free(menu_logo_str);
+		h_conf_free(conf);
+		return err;
+	}
+
 
 	//Prepare basic script.js library
 	fputs(H_STRS_JS_LIB, outfiles.js);

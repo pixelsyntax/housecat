@@ -10,6 +10,7 @@
 #define H_FILE_OUTPUT "public"
 #define H_FILE_CONF "conf"
 #define H_FILE_IMGS "imgs"
+#define H_FILE_ASSETS "assets"
 #define H_FILE_PLUGINS "plugins"
 #define H_FILE_PLUGIN_JS "js"
 #define H_FILE_PLUGIN_PHP "php"
@@ -18,6 +19,7 @@
 
 #define H_FILE_OUT_META "_"
 #define H_FILE_OUT_IMGS "imgs"
+#define H_FILE_OUT_ASSETS "assets"
 #define H_FILE_OUT_JS "script.js"
 #define H_FILE_OUT_PHP "php"
 #define H_FILE_OUT_MISC "misc"
